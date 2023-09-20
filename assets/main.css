@@ -1,0 +1,56 @@
+/* this is where you write your css */
+/* On Mac you can comment by typing CMD+/ */
+
+/* if you define a font do it at the top */
+/* and then assign it to a class wherever you need it */
+@font-face {
+    font-family: 'MakeUpAName';
+    src:  url('fonts/dyslexia.woff') format('woff');
+  }
+
+
+
+/* To select an element, type its name*/
+/* This effects all pages, unless we override it with a class */
+body{
+    background-color: yellowgreen;
+}
+
+/* This is how I section my CSS */
+/* I declare more general things at the top of my css file */
+/* And the lower I go the more specific I become */
+/* --------------------- Colors */
+
+/* To select a class, type its name marked with . before it */
+.menu{
+    color: rgb(0, 100, 0);
+}
+
+/* To select an ID, type its name marked with # before it */
+#main-page{
+    background-color: #ff6347;
+}
+
+/* --------------------- Entry 1 */
+
+/* Nothing here yet */
+
+/* --------------------- Entry 2 */
+
+.my-fancy-class{
+    /* this is css shorthand */
+    border: 20px outset fuchsia;
+
+    /* you could also write */
+    /* border-with: 20px; */
+    /* border-color: fuchsia; */
+    /* border-style: outset; */
+    /* but shorthand is, shorter */
+}
+
+#entry-2{
+    font-family: 'MakeUpAName';
+}
+
+
+/* Nothing here yet */

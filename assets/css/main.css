@@ -9,11 +9,19 @@
   }
 
 
+  *{
+    box-sizing: border-box;
+  }
+
 
 /* To select an element, type its name*/
 /* This effects all pages, unless we override it with a class */
 body{
-    background-color: yellowgreen;
+    background-color: rgb(205, 179, 50);
+}
+
+p{
+    max-width: 75ch;
 }
 
 /* This is how I section my CSS */
@@ -52,5 +60,20 @@ body{
     font-family: 'MakeUpAName';
 }
 
+img{
+    max-width: 100%;
+}
 
 /* Nothing here yet */
+
+/* --------------------- Entry 3 */
+
+/* Nothing here yet */
+
+/* --------------------- Entry 4 */
+
+/* Nothing here yet */
+
+
+/* --------------------- Entry 5 */
+

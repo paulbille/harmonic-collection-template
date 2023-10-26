@@ -1,25 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- Your css link goes here into the header, make sure to specify the link properly -->
     <!-- Read this if you are lost:
     https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files -->
     <!-- The link to the stylesheet here is shorter, because we are on the same level -->
-    <link href="assets/main.css" rel="stylesheet">
-</head>
-<!-- This body has an ID -->
-<body id="main-page">
-    <p>This could be the main page of your harmonic-collection</p>
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+  <!-- This body has an ID -->
+  <body id="main-page">
+    <p>
+      This page is the <mark>main page</mark> of your harmonic-collection. You
+      could also call it <mark>index page</mark> because it indexes all your subpages (entries).
+      You could also call it <mark>home or start page</mark> because of the location of this index file the browser will automatically open it.
+      <mark>Your start/main/home page DOES NOT COUNT AS AN ENTRY!</mark>
+    </p>
+
+    <p>As a reminder, to pass this class your collection needs to have (at a minimum):
+        <ul>
+            <li>functioning links to all entries</li>
+            <li>1 startpage like this one</li>
+            <li>10 entries with at least 1 .html file per entry</li>
+            <li>be responsive: work on mobile phones and desktops</li>
+        </ul>
+    </p>
+
     <!-- This list has a class -->
     <ul class="menu">
-        <li>You could put your links to the entries in here</li>
-        <li>
-            <a href="entry-1/index.html">Like this, for example to <mark>Entry 1</mark></a>
-        </li>
-        <li>But really, do whatever you like!</li>
+      <li>You could put your links to the entries in here</li>
+      <li>
+        <a href="entry-1/index.html"
+          ><mark>Entry 1</mark> was just HTML at some point</a
+        >
+      </li>
+      <li>
+        <a href="entry-2/index.html">
+            Entry 2 here we learned the basics of CSS
+        </a>
+      </li>
+      <li>
+        <a href="entry-3/index.html">
+            Entry 3 and then the box Model
+        </a>
+      </li>
+      <li>
+        <a href="entry-4/index.html">
+            Entry 4 we checked out the Inspector/Dev Tools
+        </a>
+      </li>
+      <li>
+        <a href="entry-5/index.html">
+            Entry 5 and Media Queries
+        </a>
+      </li>
+      <li>
+        <a href="entry-6/index.html">
+            Entry 6 and Flexbox
+        </a>
+      </li>
+      <li>
+        <a href="entry-7/index.html">
+            Entry 7 and CSS Grid
+        </a>
+      </li>
+      
     </ul>
-</body>
+  </body>
 </html>

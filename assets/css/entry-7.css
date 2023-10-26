@@ -1,0 +1,60 @@
+
+
+.wrapper{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 
+        1fr
+        min(65ch, 100%) 
+        1fr;
+}
+
+
+.wrapper > * {
+    grid-column: 2;
+}
+
+.full{
+    width: 100%;
+    grid-column: 1 / 4;
+}
+
+header,
+main,
+nav,
+aside,
+article,
+footer {
+    padding: 1em;
+}
+
+header{
+    background-color: beige;
+}
+
+main{
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 2fr 5fr 1fr;
+    gap: 1em;
+}
+
+article{
+    background-color: red;
+}
+
+aside{
+    background-color: green;
+}
+
+nav{
+    background-color: aqua;
+}
+
+footer{
+    background-color: orange;
+}
+
+
+
+

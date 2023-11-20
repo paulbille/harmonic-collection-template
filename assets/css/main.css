@@ -5,7 +5,7 @@
 /* and then assign it to a class wherever you need it */
 @font-face {
     font-family: 'MakeUpAName';
-    src:  url('fonts/dyslexia.woff') format('woff');
+    src:  url('../fonts/dyslexia.woff') format('woff');
   }
 
 
@@ -14,66 +14,42 @@
   }
 
 
-/* To select an element, type its name*/
-/* This effects all pages, unless we override it with a class */
 body{
-    background-color: rgb(205, 179, 50);
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    
+
+}
+
+h1{
+    text-align: center;
 }
 
 p{
     max-width: 75ch;
 }
 
-/* This is how I section my CSS */
-/* I declare more general things at the top of my css file */
-/* And the lower I go the more specific I become */
-/* --------------------- Colors */
 
-/* To select a class, type its name marked with . before it */
 .menu{
     color: rgb(0, 100, 0);
 }
 
-/* To select an ID, type its name marked with # before it */
 #main-page{
-    background-color: #ff6347;
+    background-color: lightblue;
 }
 
-/* --------------------- Entry 1 */
-
-/* Nothing here yet */
-
-/* --------------------- Entry 2 */
-
-.my-fancy-class{
-    /* this is css shorthand */
-    border: 20px outset fuchsia;
-
-    /* you could also write */
-    /* border-with: 20px; */
-    /* border-color: fuchsia; */
-    /* border-style: outset; */
-    /* but shorthand is, shorter */
+#main-page main{
+    display: block;
+    margin: 0 auto;
+    max-width: 900px;
 }
 
-#entry-2{
-    font-family: 'MakeUpAName';
+section{
+    border: 1px solid red;
+    border-radius: 1em;
+    background-color: hotpink;
+    padding: 1em;
 }
 
-img{
-    max-width: 100%;
-}
-
-/* Nothing here yet */
-
-/* --------------------- Entry 3 */
-
-/* Nothing here yet */
-
-/* --------------------- Entry 4 */
-
-/* Nothing here yet */
-
-
-/* --------------------- Entry 5 */
 

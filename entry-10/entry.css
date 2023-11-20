@@ -1,0 +1,11 @@
+#follower{
+    background-color: red;
+    width: 2em;
+    height: 2em;
+    top: 0px;
+    position: fixed;
+}
+
+body{
+    background-color: green;
+}

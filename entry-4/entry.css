@@ -1,0 +1,30 @@
+.animated-heading {
+    animation-name: slide-in, color-change;
+    animation-duration: 1s, 3s;
+    animation-timing-function: ease-in-out, linear;
+    animation-iteration-count: 1, infinite;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes color-change {
+    0% {
+      color: #ff0000; /* Start color */
+    }
+    50% {
+      color: #00ff00; /* Mid color */
+    }
+    100% {
+      color: #0000ff; /* End color */
+    }
+  }
+  

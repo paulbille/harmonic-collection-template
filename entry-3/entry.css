@@ -1,0 +1,24 @@
+main{
+  column-count: 2;
+  max-width: calc(65ch * 2);
+  margin: 0 auto;
+}
+
+abbr {
+  color: chocolate;
+}
+
+@media print {
+  main {
+    border: 1px solid black;
+    padding: 1em;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  header{
+    display: none;
+  }
+}

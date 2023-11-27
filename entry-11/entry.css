@@ -1,0 +1,54 @@
+
+h1{
+    text-align: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    grid-auto-flow: column-dense; /* try taking auto-flow dense of to see the difference */
+
+    grid-gap: 10px;
+
+    max-width: 100%;
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px; 
+
+
+
+}
+
+li{
+    border: 1px solid black;
+    padding-bottom: calc(9/9 * 100%);
+    /* height: 2vw; */
+}
+
+
+li:hover div{
+    display: inline-block;
+}
+
+div{
+    display: none;
+    position: absolute;
+    background-color: grey;
+    padding: 1em;
+}
+
+li:nth-child(5n) {
+    grid-row: span 2;
+    grid-column: span 2; 
+}
+
+li:nth-child(7n) {
+    grid-row: span 3;
+    grid-column: span 3; 
+}
+
+li:nth-child(10n) {
+    grid-row: span 5;
+    grid-column: span 5;
+}
